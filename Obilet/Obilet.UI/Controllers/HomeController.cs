@@ -47,13 +47,9 @@ namespace Obilet.UI.Controllers
             var busLocationData = _busService.GetBusLocations(deviceSession);
 
             var busLocationList = new List<SelectListItem>();
-            var i = 0;
             foreach (var location in busLocationData)
             {
                 busLocationList.Add(new SelectListItem { Text = location.Name, Value = location.Id.ToString() });
-                i++;
-                if (i > 10)
-                    break;
             }
 
             ViewBag.BusLocationList = new SelectList(busLocationList, "Value", "Text");

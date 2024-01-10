@@ -1,7 +1,12 @@
+using Obilet.UI.Configuration;
 using Obilet.UI.Interfaces;
 using Obilet.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+AppSettings appSettings = builder.Configuration.GetSection(nameof(AppSettings)).Get<AppSettings>();
+builder.Services.AddSingleton(_ => appSettings);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -9,6 +14,9 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IBusService, BusService>();
 builder.Services.AddScoped<ISessionService, SessionService>();
 builder.Services.AddScoped<IIntegrationService, IntegrationService>();
+
+
+builder.Services.AddHttpClient();
 
 
 var app = builder.Build();

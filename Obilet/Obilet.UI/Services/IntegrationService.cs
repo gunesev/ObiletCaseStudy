@@ -5,95 +5,102 @@ using Obilet.UI.Models.BusModels;
 using Obilet.UI.Models.SessionModels;
 using System.Net;
 using System.Text;
+using Obilet.UI.Configuration;
 
 namespace Obilet.UI.Services
 {
     public class IntegrationService : IIntegrationService
     {
         #region Fields
-        private string apiUrl = "https://v2-api.obilet.com/api/";
+        private readonly AppSettings _appSettings;
+        private readonly HttpClient _client;
+        private string apiUrl;
+        #endregion
+
+        #region Ctor
+        public IntegrationService(AppSettings appSettings, IHttpClientFactory httpClientFactory)
+        {
+            _appSettings = appSettings;
+            _client = httpClientFactory.CreateClient();
+            apiUrl = _appSettings.ObiletApiUrl;
+        }
         #endregion
 
         #region Methods
+        private void AddAuthorization()
+        {
+            _client.DefaultRequestHeaders.Add("Authorization", "Basic JEcYcEMyantZV095WVc3G2JtVjNZbWx1");
+        }
+
+        private StringContent CreateStringContent(object _object)
+        {
+            var jsonSerializerSettings = new JsonSerializerSettings
+            {
+                DateFormatHandling = DateFormatHandling.MicrosoftDateFormat,
+            };
+
+            var content = new StringContent(JsonConvert.SerializeObject(_object, jsonSerializerSettings), Encoding.UTF8, "application/json");
+
+            return content;
+        }
         public async Task<Response<DeviceSession>> GetSession(SessionRequest sessionRequest)
         {
-            using (var client = new HttpClient())
-            {
-                client.DefaultRequestHeaders.Add("Authorization", "Basic JEcYcEMyantZV095WVc3G2JtVjNZbWx1");
-                var url = apiUrl + "client/getsession";
+            AddAuthorization();
 
-                var jsonSerializerSettings = new JsonSerializerSettings
-                {
-                    DateFormatHandling = DateFormatHandling.MicrosoftDateFormat,
-                };
+            var url = $"{apiUrl}client/getsession";
 
-                var content = new StringContent(JsonConvert.SerializeObject(sessionRequest, jsonSerializerSettings), Encoding.UTF8, "application/json");
+            var content = CreateStringContent(sessionRequest);
 
-                var response = await client.PostAsync(url, content);
+            var response = await _client.PostAsync(url, content);
 
-                if (response.StatusCode != HttpStatusCode.OK)
-                    throw new Exception($"Status Code:{response.StatusCode} ReasonPhrase:{response.ReasonPhrase}");
+            if (response.StatusCode != HttpStatusCode.OK)
+                throw new Exception($"Status Code:{response.StatusCode} ReasonPhrase:{response.ReasonPhrase}");
 
-                var responseString = await response.Content.ReadAsStringAsync();
+            var responseString = await response.Content.ReadAsStringAsync();
 
-                var result = JsonConvert.DeserializeObject<Response<DeviceSession>>(responseString);
+            var result = JsonConvert.DeserializeObject<Response<DeviceSession>>(responseString);
 
-                return result;
-            }
+            return result;
         }
 
         public async Task<Response<List<BusLocation>>> GetBusLocations(Request<string> request)
         {
-            using (var client = new HttpClient())
-            {
-                client.DefaultRequestHeaders.Add("Authorization", "Basic JEcYcEMyantZV095WVc3G2JtVjNZbWx1");
-                var url = apiUrl + "location/getbuslocations";
+            AddAuthorization();
 
-                var jsonSerializerSettings = new JsonSerializerSettings
-                {
-                    DateFormatHandling = DateFormatHandling.MicrosoftDateFormat,
-                };
+            var url = $"{apiUrl}location/getbuslocations";
 
-                var content = new StringContent(JsonConvert.SerializeObject(request, jsonSerializerSettings), Encoding.UTF8, "application/json");
+            var content = CreateStringContent(request);
 
-                var response = await client.PostAsync(url, content);
+            var response = await _client.PostAsync(url, content);
 
-                if (response.StatusCode != HttpStatusCode.OK)
-                    throw new Exception($"Status Code:{response.StatusCode} ReasonPhrase:{response.ReasonPhrase}");
+            if (response.StatusCode != HttpStatusCode.OK)
+                throw new Exception($"Status Code:{response.StatusCode} ReasonPhrase:{response.ReasonPhrase}");
 
-                var responseString = await response.Content.ReadAsStringAsync();
+            var responseString = await response.Content.ReadAsStringAsync();
 
-                var result = JsonConvert.DeserializeObject<Response<List<BusLocation>>>(responseString);
+            var result = JsonConvert.DeserializeObject<Response<List<BusLocation>>>(responseString);
 
-                return result;
-            }
+            return result;
         }
 
         public async Task<Response<List<BusJourney>>> GetBusJourneys(Request<BusJourneyData> request)
         {
-            using (var client = new HttpClient())
-            {
-                client.DefaultRequestHeaders.Add("Authorization", "Basic JEcYcEMyantZV095WVc3G2JtVjNZbWx1");
-                var url = apiUrl + "journey/getbusjourneys";
+            AddAuthorization();
 
-                var jsonSerializerSettings = new JsonSerializerSettings
-                {
-                    DateFormatHandling = DateFormatHandling.MicrosoftDateFormat,
-                };
+            var url = $"{apiUrl}journey/getbusjourneys";
 
-                var content = new StringContent(JsonConvert.SerializeObject(request, jsonSerializerSettings), Encoding.UTF8, "application/json");
+            var content = CreateStringContent(request);
 
-                var response = await client.PostAsync(url, content);
+            var response = await _client.PostAsync(url, content);
 
-                if (response.StatusCode != HttpStatusCode.OK)
-                    throw new Exception($"Status Code:{response.StatusCode} ReasonPhrase:{response.ReasonPhrase}");
+            if (response.StatusCode != HttpStatusCode.OK)
+                throw new Exception($"Status Code:{response.StatusCode} ReasonPhrase:{response.ReasonPhrase}");
 
-                var responseString = await response.Content.ReadAsStringAsync();
+            var responseString = await response.Content.ReadAsStringAsync();
 
-                var result = JsonConvert.DeserializeObject<Response<List<BusJourney>>>(responseString);
+            var result = JsonConvert.DeserializeObject<Response<List<BusJourney>>>(responseString);
 
-                return result;
-            }
+            return result;
         }
         #endregion
 

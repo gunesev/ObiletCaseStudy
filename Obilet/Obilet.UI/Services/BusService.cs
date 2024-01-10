@@ -21,7 +21,7 @@ namespace Obilet.UI.Services
         #endregion
 
 
-        #region Methods
+        #region Methods        
         public List<BusLocation> GetBusLocations(DeviceSession session)
         {
             try
