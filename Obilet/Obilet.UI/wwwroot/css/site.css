@@ -1,0 +1,122 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+    background-color: #F8F8F8;
+    max-width: 500px;
+    height: 568px;
+    overflow-y: auto;
+    padding: 0;
+}
+.form-group {
+    background-color: #FFFFFF;
+    display: block;
+    background: white;
+    padding: 5px;
+    margin: 3px;
+}
+
+.input-label {
+    color: #2F4EB4 !important;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.input-dropdown{
+    width:100%;
+    border: none;
+}
+.input-group-text {
+    background: transparent;
+    border: none;
+}
+
+.find-button {
+    background-color: #2F4EB4;
+    color:white;
+    width:200px;
+    height:50px;
+    margin-top:30px;
+}
+
+.day-button {
+    font-size: small;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #5D686E;
+    border-radius: 2px;
+    height: 24px;
+}
+
+.change-button {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 100%;
+    position: absolute;
+    right: 1px;
+    top: 15px;
+    transform: rotate(90deg);
+}
+
+.select2{
+    width:100%;
+}
+
+.selected-day {
+    background-color: #5D686E !important;
+    color: white !important;
+}
+
+.select2-results__options {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.card {
+    margin: 5px;
+    background: radial-gradient(white, #EDEDED);
+}
+
+.card-text {
+    font-size: small;
+    color: #083145 !important;
+}
+
+.card-body p {
+    color: #192289;
+}
+
+.hour-text {
+    font-weight: 600;
+}
+
+.price-button-card {
+    display: flex;
+    justify-content: right;
+}
+.price-button {
+    font-size: x-small;
+    width: 70px;
+    height: 30px;
+    text-wrap: nowrap;
+}

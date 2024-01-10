@@ -1,0 +1,70 @@
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.csproj.AssemblyReference.cache
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.AssemblyInfoInputs.cache
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.AssemblyInfo.cs
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.csproj.CoreCompileInputs.cache
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.RazorAssemblyInfo.cache
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.RazorAssemblyInfo.cs
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\appsettings.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.staticwebassets.runtime.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.exe
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.deps.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.runtimeconfig.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.dll
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.pdb
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.Service.dll
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.Service.pdb
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.Service.dll.config
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.Obilet.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.Obilet.UI.props
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Obilet.UI.props
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Obilet.UI.props
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\scopedcss\bundle\Obilet.UI.styles.css
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\scopedcss\projectbundle\Obilet.UI.bundle.scp.css
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.csproj.CopyComplete
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.dll
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\refint\Obilet.UI.dll
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.pdb
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.genruntimeconfig.cache
+C:\Users\eren.gunes\source\repos\cs\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\ref\Obilet.UI.dll
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.csproj.AssemblyReference.cache
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.AssemblyInfoInputs.cache
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.AssemblyInfo.cs
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.csproj.CoreCompileInputs.cache
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.RazorAssemblyInfo.cache
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.RazorAssemblyInfo.cs
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.dll
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\refint\Obilet.UI.dll
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.pdb
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\appsettings.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.staticwebassets.runtime.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.exe
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.deps.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.runtimeconfig.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.dll
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Obilet.UI.pdb
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\bin\Debug\net7.0\UAParser.dll
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.Obilet.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.Obilet.UI.props
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Obilet.UI.props
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Obilet.UI.props
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\scopedcss\bundle\Obilet.UI.styles.css
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\scopedcss\projectbundle\Obilet.UI.bundle.scp.css
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.csproj.CopyComplete
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\Obilet.UI.genruntimeconfig.cache
+C:\Users\CANIM OĞLUM\Desktop\Obilet\Obilet\Obilet.UI\obj\Debug\net7.0\ref\Obilet.UI.dll

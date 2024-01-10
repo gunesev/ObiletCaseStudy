@@ -1,0 +1,58 @@
+﻿﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="p-3 mb-3" style="background-color:#2F4EB4;"></div>
+
+<form action="~/home/FindJourney" style="margin: 20px;">
+     <div class="form-group col-12">
+        <label for="origin" class="font-weight-bold text-primary input-label">Nereden</label>
+        <div style="position:relative;">
+            <div class="input-group">
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div class="col-11">
+                @Html.DropDownList("origin", (SelectList)ViewBag.busLocationList, new { @id = "origin", @class = "form-control-sm input-dropdown" })
+                </div>
+        </div>
+         <div class="change-button btn" onclick="changeLocation()"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+        </div>
+    </div>
+
+    <div class="form-group col-12">
+        <label for="destination" class="font-weight-bold text-primary input-label">Nereye</label>
+        <div class="input-group">
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div class="col-11">
+                @Html.DropDownList("destination", (SelectList)ViewBag.busLocationList, new { @id = "destination", @class = "form-control-sm input-dropdown" })
+                </div>
+         </div>
+     </div>
+    <div class="form-group col-12" style="margin-top: 40px;display:flex;">
+        <div style="width:100%;">
+            <label for="departureDate" class="font-weight-bold text-primary input-label">Tarih</label>
+        <div style="display:flex;">
+             <div class="input-group">
+                <div style="margin-top:10px;"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                <div class="col" style="margin:5px;">
+                    <input type="date" onkeydown="return false" class="form-control" id="departureDate" name="departureDate" style="border: none;">
+                </div>
+            </div> 
+            </div>  
+        </div>
+
+            <div style="display:grid;">
+                <button type="button" class="day-button" onclick="getToday()" id="today">Bugün</button>
+                <button type="button" class="day-button" onclick="getTomorrow()" id="tomorrow">Yarın</button>  
+            </div> 
+        </div>
+
+   <div class="text-center">
+       <button type="submit" class="btn btn-primary btn-lg btn-block find-button">Bileti Bul</button>
+   </div>
+</form>
+
